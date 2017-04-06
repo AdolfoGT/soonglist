@@ -1,0 +1,33 @@
+{
+  "name": "webpack-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasmenker/webpack-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasmenker/webpack-react/issues"
+  },
+  "homepage": "https://github.com/matiasmenker/webpack-react#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/react": "^15.0.21",
+    "@types/react-dom": "^0.14.23",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
