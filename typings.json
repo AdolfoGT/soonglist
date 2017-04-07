@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "youtube-api-search": "github:andrew-w-ross/typings-youtube-api-search"
+  },
+  "devDependencies": {
+    "youtube-api-search": "github:andrew-w-ross/typings-youtube-api-search"
+  },
+  "globalDependencies": {
+    "youtube-api-search": "github:andrew-w-ross/typings-youtube-api-search"
+  }
+}

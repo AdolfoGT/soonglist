@@ -6,9 +6,11 @@
     "outDir": "./build/",
     "preserveConstEnums": true,
     "removeComments": true,
-    "target": "ES5"
+    "target": "ES5",
+    "allowJs": true
   },
   "exclude": [
-    "./node_modules"
+    "./node_modules",
+    "./typings"
   ]
 }
